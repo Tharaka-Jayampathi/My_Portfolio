@@ -1,0 +1,21 @@
+.profile-align-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-picture {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 3px solid #4da6ff;
+    box-shadow: 0 0 30px rgba(77, 166, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(77, 166, 255, 0.4);
+}

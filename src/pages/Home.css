@@ -1,0 +1,91 @@
+.home-bg {
+    background-color: black;
+    min-height: calc(100vh - 70px); 
+    width: 100%;
+}
+
+.home-section {
+    padding-top: 100px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro {
+    color: #4da6ff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.name1 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.name2{
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1.5rem 0;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.typing-text {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #4da6ff;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    color: #a0aec0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.social-icon {
+    color: #a0aec0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.social-icon:hover {
+    color: #4da6ff;
+    transform: translateY(-3px);
+}
+
+.profile-img {
+    max-width: 85%;
+    border: 3px solid #4da6ff;
+    box-shadow: 0 0 30px rgba(77, 166, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(77, 166, 255, 0.4);
+}
