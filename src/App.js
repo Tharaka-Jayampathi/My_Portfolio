@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Education from './pages/Education';
@@ -10,7 +10,7 @@ import Footer from "./component/footer";
 
 function App() {
   return (
-    <Router basename="/My_Portfolio">
+    <Router>
       <Routes>
         <Route path="/" element={<NavigationBar />}>
           <Route index element={<Home />} />
