@@ -10,7 +10,7 @@ import Footer from "./component/footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/My_Portfolio">
       <Routes>
         <Route path="/" element={<NavigationBar />}>
           <Route index element={<Home />} />
