@@ -21,7 +21,8 @@
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.tabs .nav-link:hover {
-    color: #1074d8 !important;
+.tabs .nav-link:hover,
+.tabs .nav-link.active {
+    color: #4da6ff !important;
     transform: translateY(-2px);
 }

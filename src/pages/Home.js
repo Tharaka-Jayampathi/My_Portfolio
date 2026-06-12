@@ -14,12 +14,11 @@ export default function Home() {
       <h1 className="name1">Tharaka</h1>
       <h1 className="name2">Jayampathi</h1>
       <div className="typing-text">
-        Frontend Developer | Web Designer |<br/> 
+        Frontend Developer <br/>
         Data Science Enthusiast
       </div>
       <p className="description">
-        Passionate about technology, web design, and continuous learning. 
-        Currently expanding my expertise at the Institute of Technology, University of Moratuwa.
+        Translating my passion for technology into intuitive web designs and analytical solutions. Currently honing my skills at the Institute of Technology, University of Moratuwa to build a successful career as a Frontend Developer and Data Science professional.
       </p>
       
       <div className="social-links">

@@ -8,28 +8,32 @@ export default function Projects() {
       title: "SCM Order & Billing Module",
       description: "A comprehensive Supply Chain Management module for handling orders and billing processes efficiently.",
       url: "https://github.com/Tharaka-Jayampathi/SCM_Order_-_Billing_Module",
-      languages: ["React", "Spring Boot", "MySQL"]
+      languages: ["React", "Spring Boot", "MySQL"],
+      image: "/images/SCM.png"
     },
     
     {
       title: "Luigi's Pizza Project",
       description: "A web application for a pizza restaurant, likely featuring a menu, ordering system, and responsive design.",
       url: "https://github.com/Tharaka-Jayampathi/Luigi-s-Pizza-Project",
-      languages: ["React", "JavaScript", "CSS", "HTML"]
+      languages: ["React", "JavaScript", "CSS", "HTML"],
+      image: "/images/LuigiPizza.png"
     },
 
     {
       title: "Weather Dashboard",
       description: "A weather application that fetches and displays real-time weather data and forecasts.",
       url: "https://github.com/Tharaka-Jayampathi/Weather-Dashboard",
-      languages: ["React", "API", "CSS", "HTML", "JavaScript"]
+      languages: ["React", "API", "CSS", "HTML", "JavaScript"],
+      image: "/images/WeatherDashboard.png"
     },
 
     {
       title: "Smart Home Automation System",
       description: "A project focused on automating home devices and systems for improved convenience and energy efficiency.",
       url: "https://github.com/Tharaka-Jayampathi/Smart_Home_Automation_System",
-      languages: ["C programming"]
+      languages: ["C programming"],
+      image: "/images/SmartHome.png"
     },
 
   ];
@@ -43,6 +47,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <Col lg={4} md={6} className="mb-5" key={index}>
               <div className="project-card">
+                <img src={process.env.PUBLIC_URL + project.image} alt={project.title} className="project-image" />
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className="project-tags">

@@ -3,7 +3,7 @@
   color: white;
   min-height: calc(100vh - 80px);
   width: 100%;
-  padding: 60px 0;
+  padding: 20px 0 60px 0;
 }
 
 .projects-title {
@@ -97,5 +97,5 @@
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
